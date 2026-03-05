@@ -9,7 +9,7 @@ $(function () {
     fade: true,
   });
   // リンクのホバー時に不透明度をアニメーションで変更する
-  $('a, .item img').hover(
+  $('a, .works-item img').hover(
     function () {
       $(this).animate({ 'opacity': 0.6 }, 300);
     },
